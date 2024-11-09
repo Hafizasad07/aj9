@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    color: #fff;
+    background-color: #020511;
+
+}
+.navbar-brand img{
+    width: 100px;
+    border-radius: 150px;
+}
+
+.navbar-expand-lg .navbar-nav{
+    gap: 40px;
+}
+
+.nav-link{
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: #fff;
+}
+
+.nav-tabs{
+    border-bottom: 1px solid #cccccc !important;
+}
+
+.nav-tabs::-webkit-scrollbar {
+    display: none; 
+}
+
+.nav-tabs .nav-link{
+    color: #404040;
+    border: none;
+    background-color: none !important;
+    border-bottom:3px solid transparent !important;
+    border-radius: none !important;
+    white-space: nowrap; 
+}
+
+.nav-tabs .nav-item {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.nav-tabs .nav-link:hover,
+.nav-link.active{
+    border-bottom: 3px solid #fff !important;
+    border-color: #fff #fff #007336 !important;
+    color: #fff !important;
+    background: linear-gradient(180deg, #29373F 0%, #232E37 100%) !important;
+
+}
+
+.nav.nav-tabs{
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap !important;
+}
+
+.banner {
+    background-color: #1c2a35;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+}
+.banner img {
+    width: 80px; /* Adjust as needed */
+    margin-bottom: 20px;
+    border-radius: 150px;
+}
+.stop-icon {
+    font-size: 48px;
+    color: #e74c3c;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+.cta-link {
+    color: white;
+    background-color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.display-4{
+    background-color: transparent;
+}
+
+.csgo-banner {
+    background: #1c2a35 !important;
+    color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 70px;
+}
+.csgo-banner h2 {
+    font-weight: bold;
+}
+
+.csgo-banner h2,
+.csgo-banner p{
+    max-width: 700px;
+    margin: auto;
+}
+
+.csgo-card {
+    background-color: #1c2a35; /* Dark background */
+    color: white;
+    border: 1px solid #2e3b45; /* Subtle border */
+    border-radius: 10px;
+}
+.card-header img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+.star-rating {
+    color: #28a745; /* Green color for stars */
+}
+.btn-claim {
+    background-color: #28a745;
+    border: none;
+    font-weight: bold;
+}
+
+#myTabContent img{
+    border-radius: 20px;
+}
+
+.courses-taught-flex .courses-taught-para{
+    font-size: 15px;
+    color: #404040;
+    font-weight: 500;
+}
+
+.courses-taught-flex .courses-taught-heading{
+    color: #000;
+    font-size: 25px;
+    line-height: normal;
+    font-weight: bold;
+}
+
+.courses-taught-flex{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background: #F9F9F9;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.courses-taught-flex img{
+    width: 60px;
+}
+
+.section1{
+    padding-top: 40px;
+}
+.section1 .heading{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bg-F5F5F5{
+    background-color: #1c2a35 !important;
+    margin: 40px 0px;
+    padding: 40px 30px;
+}
+
+.owl-dots {
+    display: block;
+    position: absolute;
+    bottom: -25px;
+    text-align: center;
+    padding-top: 15px;
+    z-index: 100;
+    width: 100%;
+}
+.owl-dots button.owl-dot {
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.owl-dots button.owl-dot.active span{
+    background: #fff!important;
+    position: relative;
+}
+
+.owl-dots button.owl-dot span {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #020511;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.owl-dots button.owl-dot:focus {
+    outline: none;
+}
+
+.carousel-flex{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-flex img{
+    width: 80px !important;
+}
+
+.social-card {
+    background-color: #1c2a35;
+    border: none;
+    color: white;
+    text-align: center;
+    opacity: 0; /* Start invisible */
+    transform: translateY(20px); /* Start with a slight downward shift */
+    animation: fadeInUp 1s ease forwards; /* Trigger the animation */
+  }
+  .social-card img {
+    max-width: 50px;
+    margin-bottom: 10px;
+  }
+  .btn-follow {
+    background-color: #1a8cd8;
+    color: white;
+    border: none;
+  }
+  .btn-follow:hover {
+    background-color: #1380be;
+  }
+  .social-header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  /* Animation keyframes */
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  /* Delay each card for staggered effect */
+  .social-card:nth-child(1) { animation-delay: 0.2s; }
+  .social-card:nth-child(2) { animation-delay: 0.4s; }
+  .social-card:nth-child(3) { animation-delay: 0.6s; }
+  
+.section2{
+    margin-bottom: 30px;
+}
+
+.footer-logo img{
+    width: 100px !important;
+    border-radius: 150px;
+}
+
+.footer-section {
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer-section p{
+    font-size: 14px;
+    color: #fff;
+    padding-top: 20px;
+}
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #fff;
+}
+
+.footer-section .social-icons i {
+    border: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-section .social-icons{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-section h5{
+    position: relative;
+}
+
+.footer-section h5::after{
+    border-bottom: 2px solid #1c2a35;
+    width: 30px;
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0;
+    bottom: -7px;
+}
+
+.footer-section .navigation-link li{
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.text-8FD300{
+    color: #fff;
+}
+
+.footer-section-stars{
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:992px) {
+    .navbar-expand-lg .navbar-nav{
+        gap: 0px;
+        text-align: left;
+    }
+
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+}
+
+@media (max-width: 767px) {
+    
+    .footer-section h5,
+    .courses-taught-flex{
+        font-size: 14px;
+    }
+
+    .courses-taught-flex{
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-section{
+        padding: 30px 0;
+    }
+
+    .footer-section a,
+    .footer-section .navigation-link li{
+        font-size: 12px;
+    }
+    
+    .section1-container{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+
+    .banner {
+        margin-bottom: 20px;
+    }
+
+    #myTabContent img{
+        margin-top: 30px;
+    }
+}
