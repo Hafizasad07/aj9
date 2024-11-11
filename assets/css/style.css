@@ -370,16 +370,41 @@ body{
     width: 120px;
     margin-bottom: 15px;
 }
+.claim-button{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+}
 .bonus-text {
     font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    padding: 8px;
+}
+.crypto-icons{
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    padding: 10px;
+}
+
+.claim-button:hover,
+.crypto-icons:hover,
+.bonus-text:hover{
+    outline: 2px solid #004fa6;
+    transition: 0.4s ease;
+    background: #020511;
 }
 .crypto-icons img {
     width: 30px;
     margin: 0 5px;
 }
-.claim-button {
+/* .claim-button {
     background-color: #004fa6;
     color: white;
     border: none;
@@ -387,11 +412,11 @@ body{
     border-radius: 5px;
     text-decoration: none;
     display: inline-block;
-}
-.claim-button:hover {
+} */
+/* .claim-button:hover {
     background-color: #fff;
     color: #1c2a35;
-}
+} */
 
 .hero-section{
     padding-top: 40px;
